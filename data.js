@@ -26,7 +26,7 @@ const movies = [
     {
         title: "명탐정 코난: 100만 달러의 펜타그램", 
         year: 2024, 
-        date: "2024-04-126",
+        date: "2024-04-12", // 오타 수정 (126 -> 12)
         rating: 6.9, 
         poster: "/4TMkOnI6rCYxqD059aeeQSBv5mc.jpg"
     },
@@ -35,13 +35,13 @@ const movies = [
         year: 2026, 
         date: "2026-09-23",
         rating: 7.2, 
-        poster: "https://image.tmdb.org/t/p/w342/c55ijsOdntj6P25vDwHLdgsBpmV.jpg"
+        poster: "/c55ijsOdntj6P25vDwHLdgsBpmV.jpg" // 다른 영화들과 형식을 맞추기 위해 파일 경로만 남김
     },
     {
-        title: "암살자(들)", 
+        title: "스파이더맨: 브랜드 뉴 데이", 
         year: 2026, 
-        date: "2026-7-29",
+        date: "2026-07-29",
         rating: 8.0, 
-        poster: "https://media.themoviedb.org/t/p/w300_and_h450_face/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg"
+        poster: "/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg" // 다른 영화들과 형식을 맞추기 위해 파일 경로만 남김
     }
 ];

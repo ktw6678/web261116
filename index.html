@@ -28,16 +28,28 @@
     </header>
 
     <section class="hero">
-        <h2>요즘 내가 고른 영화 다섯 편</h2>
+        <h2>요즘 내가 고른 영화 여섯 편</h2>
         <p>포스터 위에 마우스를 올려 보세요.</p>
     </section>
 
 
     <main>
-       
+        
 
         <section id="mine">
-            <h2>내 인생 영화 5편</h2>
+            <h2>내 인생 영화 6편</h2>
+
+            <!-- [추가된 부분] 실습 안내 (다)에 따른 개수 표시 및 정렬 툴바 -->
+            <div class="toolbar">
+                <p id="count"></p>
+                <label for="sort">정렬</label>
+                <select id="sort" onchange="applySort()">
+                    <option value="rating">평점순</option>
+                    <option value="year">최신 개봉순</option>
+                    <option value="title">제목순</option>
+                </select>
+            </div>
+
             <div class="board" id="board">
 
             </div>

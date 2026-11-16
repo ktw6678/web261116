@@ -316,4 +316,26 @@ body.is-loading .card {
 }
 
 
- .card.hot .badge { background: crimson; color: #fff; }   
+
+.toolbar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.toolbar select {
+    background: var(--surface);
+    color: var(--text);
+    border: 1px solid var(--accent);
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-family: inherit;
+}
+
+
+.card.hot .badge { 
+    background: crimson; 
+    color: #fff; 
+}
