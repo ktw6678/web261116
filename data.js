@@ -1,4 +1,4 @@
-// data.js : 내 영화 5편 데이터 / 여상수(09) / 10주차
+// data.js : 내 영화 5편 데이터 / 김태완(26) / 10주차
 // 영화 한 편 = 객체 하나. 키 5개 : title, year, date, rating, poster
 
 const movies = [
@@ -31,10 +31,17 @@ const movies = [
         poster: "/4TMkOnI6rCYxqD059aeeQSBv5mc.jpg"
     },
     {
-        title: "모노노케 히메", 
-        year: 1997, 
-        date: "1997-07-12",
-        rating: 8.3, 
-        poster: "/gl0jzn4BupSbL2qMVeqrjKkF9Js.jpg"
+        title: "암살자(들)", 
+        year: 2026, 
+        date: "2026-09-23",
+        rating: 7.2, 
+        poster: "https://image.tmdb.org/t/p/w342/c55ijsOdntj6P25vDwHLdgsBpmV.jpg"
+    },
+    {
+        title: "암살자(들)", 
+        year: 2026, 
+        date: "2026-7-29",
+        rating: 8.0, 
+        poster: "https://media.themoviedb.org/t/p/w300_and_h450_face/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg"
     }
 ];
